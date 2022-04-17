@@ -1,11 +1,4 @@
-.board {
-  display: flex;
-  width: 300px;
-  height: 300px;
-}
-.cell:nth-child(even) {
-  background-color: red;
-}
-.cell:nth-child(odd) {
-  background-color: blue;
+body {
+  display: grid;
+  place-items: center;
 }
